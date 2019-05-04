@@ -1,0 +1,14 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Nome do prato</th>
+      <th scope="col">Valor</th>
+    </tr>
+  </thead>
+  <tbody *ngFor = "let item of itens">
+    <tr>
+      <th scope="row">{{item.nome}}</th>
+      <td>{{item.valor}}</td>
+    </tr>
+  </tbody>
+</table>

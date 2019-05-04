@@ -1,0 +1,9 @@
+{
+    "pedido": [
+        {"id":0, "prato":0 , "nome_do_comprador":"fafafas", "valor": 50}
+    ],
+    "prato": [
+        {"id":0, "nome":"dkasjd", "quantidade": 50 , "valor": 50},
+        {"id":1, "nome":"dasdasf", "quantidade": 50 , "valor": 50}
+    ]
+}

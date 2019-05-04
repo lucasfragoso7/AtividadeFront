@@ -1,0 +1,8 @@
+<div class="input-group">
+  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon" >
+    <option value="1"*ngFor='let prato of pratos'>{{prato.nome}}</option>
+  </select>
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" (click)= 'setPedido()'>Pedir</button>
+  </div>
+</div>
